@@ -2,12 +2,12 @@
   "name": "testing-db",
   "version": "1.0.0",
   "description": "",
-  "main": "testingdb.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node testingdb.js",
-    "forever": "forever start testingdb.js",
-    "again": "forever restart testingdb.js",
+    "start": "node app.js",
+    "forever": "forever start app.js",
+    "again": "forever restart app.js",
     "stop": "forever stopall"
   },
   "author": "",
