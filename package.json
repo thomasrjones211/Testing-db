@@ -5,16 +5,14 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "forever": "forever start app.js",
-    "again": "forever restart app.js",
-    "stop": "forever stopall"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
     "dotenv": "^4.0.0",
+    "express": "^4.15.3",
     "knex": "^0.13.0",
     "pg": "^6.2.3"
   }
