@@ -1,0 +1,21 @@
+{
+  "name": "testing-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testingdb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node testingdb.js",
+    "forever": "forever start testingdb.js",
+    "again": "forever restart testingdb.js",
+    "stop": "forever stopall"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "knex": "^0.13.0",
+    "pg": "^6.2.3"
+  }
+}
